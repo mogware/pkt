@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pkt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.counter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.decode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.defrag_tracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.defrag_tracker_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.ethernet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.gre.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.icmpv4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.icmpv6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.ipv4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.ipv6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.mpls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.noncopyable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.null.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.packet_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.ppp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.pppoe_disc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.pppoe_sess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.raw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.sctp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.sll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.tcp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.teredo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.thread_vars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.udp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pkt.vlan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pkt.counter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.decode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.defrag_tracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.defrag_tracker_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.ethernet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.gre.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.icmpv4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.icmpv6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.ipv4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.ipv6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.mpls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.null.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.ppp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.pppoe_disc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.pppoe_sess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.raw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.sctp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.sll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.tcp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.teredo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.udp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pkt.vlan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pkt.counter.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="pkt.gre.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="pkt.icmpv4.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="pkt.icmpv6.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="pkt.ipv4.inl">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="pkt.ipv6.inl">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
